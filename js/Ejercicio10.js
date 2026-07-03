@@ -18,5 +18,5 @@ function convertir() {
     var resultado = (parseFloat(num1) * 9 / 5) + 32;
 
     // Mostrar resultado
-    document.getElementById("attr_readonly").value = resultado + " °F";
+    document.getElementById("resultado").value = resultado + " °F";
 }
