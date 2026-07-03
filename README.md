@@ -1,7 +1,7 @@
 # Actividad-1---Tema-2
 
 
-Este repositorio reúne los 18 ejercicios prácticos desarrollados durante la Actividad 1 del Tema 2 de Programación Web. Cada ejercicio tiene como objetivo reforzar los conocimientos fundamentales del desarrollo de páginas web utilizando HTML, CSS y JavaScript.
+Este repositorio reúne los 10 ejercicios prácticos desarrollados durante la Actividad 1 del Tema 2 de Programación Web. Cada ejercicio tiene como objetivo reforzar los conocimientos fundamentales del desarrollo de páginas web utilizando HTML, CSS y JavaScript.
 
 El proyecto cuenta con un archivo index.html, el cual funciona como un menú principal que permite acceder fácilmente a cada uno de los ejercicios.
 
