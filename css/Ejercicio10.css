@@ -1,0 +1,203 @@
+:root{
+    --color-primario:#927dc1;
+    --color-secundario: #4CC9F0;
+    --color-fondo: #f8f9fa;
+    --color-texto: #2b2d42;
+    --color-borde: #e9ecef;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter',sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+.contenedor-formulario{
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+h1{
+    font-size: 28px;
+    color: var(--color-primario);
+    margin-bottom: 8px;
+
+}
+.subtitulo{
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+.grupo-formulario{
+    margin-bottom: 20px;
+
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+}
+input, textarea{
+ width: 100%;
+ padding: 12px 15px;
+ border: 1px solid var(--color-borde);
+ border-radius: 8px;
+ transition: all 0.3s;   
+}
+input:focus, textarea:focus{
+    border-color:var(--color-secundario);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.2);
+}
+.grupo-doble{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.boton-enviar{
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-enviar:hover{
+    background-color: #2a0880;
+    
+}
+form{
+                background-color: aliceblue;
+                padding: 20px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                margin-bottom: 30px;
+
+            }
+            /* --- Ejercicio 9: Estilos en Documento Externo --- */
+
+/* 1. Estilos por Elemento (h1, p, a, img, button) */
+/* Estos estilos se aplican a TODAS las instancias de estos elementos en el HTML */
+
+h1 {
+    color: #927dc1;
+    /* Azul oscuro */
+    border-bottom: 2px solid #2476bd;
+    padding-bottom: 10px;
+    padding: 20px;
+    font-style:italic; 
+
+}
+
+p {
+    color: #16bdc6;
+    /* Gris azulado */
+    line-height: 1.6;
+    font-style: italic;
+    padding: 18px;
+}
+
+a {
+    color: #16bdc6;
+    /* Rojo */
+    text-decoration: none;
+}
+
+/* pseudo-clases, son estados de los elementos, los cuales cambian cuando el usuario interactúa con ellos */
+/* por ejemplo, cuando el usuario pone el cursor sobre el enlace, este cambia a underline */
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border: 3px solid #bdc3c7;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: #3498db;
+    /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: px;
+     padding: 10px;
+    
+}
+
+/* pseudo-clases, son estados de los elementos, los cuales cambian cuando el usuario interactúa con ellos */
+/* por ejemplo, cuando el usuario pone el cursor sobre el botón, este cambia a un color diferente */
+
+button:hover {
+    background-color: #4ff19a;
+}
+
+/* 2. Estilos por ID (id="id1") */
+/* Solo se aplica al elemento con id="id1" */
+
+#id1 {
+    background-color: #e8f6f3;
+    /* Verde menta muy claro */
+    border: 2px dashed #16a085;
+    /* Verde menta */
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 3. Estilos por Clase (class="class1" y class="class2") */
+/* Se aplican a CUALQUIER elemento que tenga esta clase */
+
+.class1 {
+    background-color: #fdf5e6;
+    /* Beige */
+    border: 3px solid #d35400;
+    /* Naranja */
+    padding: 15px;
+    margin: 10px 0;
+    color: #d35400;
+    font-style: italic;
+}
+
+.class2 {
+    background-color: #53c0ff;
+    /* Rojo muy claro */
+    border: 3px solid #fffb00;
+    /* Rojo oscuro */
+    padding: 15px;
+    margin: 10px 0;
+    color: #ddf730;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 20px;
+
+}
+.class3{
+    color: #41b929;
+    padding: 35px;
+    font-style:inherit;
+}
+#p4{
+    padding: 30px;
+     color: #cd3827;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/Ejercicio10.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de grados</title>
+    <script src="JS/Ejercicio10.js"></script>
+</head>
+<body>
+    <h1>Mi primer Convertidor</h1>
+    <form>
+        <label for="nombre_basico">Convertidor de grados: </label>
+        <input type="number" id="numero" name="numero" min="0" placeholder="Escribe en Grados Celcius">
+    <button type="button" onclick="convertir()">Convertir a Farenheit</button>
+    <!-- readonly: el usuario puede leerlo y se envía en el form, pero NO PUEDE editarlo. -->
+<input type="text" id="attr_readonly" name="attr_readonly" value="" required readonly>
+<input type="reset" id="attr_readonly" value="Limpiar todo">
+    </form>
+</body>
+</html>
