@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/Ejercicio12.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesos a Dolares</title>
+     <script src="js/Ejercicio12.js"></script>
+</head>
+<body>
+     <div class="contenedor-formulario">
+      <h1>Mi Tercer Convertidor</h1>
+    <form class="">
+        <label for="numero">Convertidor de MXN a USD: </label>
+
+        <input type="number" id="numero" name="numero" step="1"
+       min="0" onkeydown="return !['-','+','e','E'].includes(event.key)"  placeholder="Escribe la cantidad en pesos">
+
+    <button type="button" onclick="convertir()">Convertir a USD</button>
+
+    <!-- readonly: el usuario puede leerlo y se envía en el form, pero NO PUEDE editarlo. -->
+<input type="text" id="resultado" name="resultado" readonly>
+<input type="reset" id="btnlimpiar" value="Limpiar todo">
+    </form>
+    </div>
+</body>
+</html>

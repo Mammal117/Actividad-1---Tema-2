@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/Ejercicio15.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de calificaciones </title>
+     <script src="js/Ejercicio15.js"></script>
+</head>
+<body>
+     <div class="contenedor-formulario">
+      <h1>Registro de Calificaciones</h1>
+    <form class="">
+     <!--Etiqueta para nombre del estudiante-->
+        <label for="nombre">Ingresa el nombre del estudiante:</label>
+
+        <input type="text" id="nombre" name="nombre" placeholder="Eje: Ahuitz">
+        <!--Etiqueta para la calificacion del estudiante-->
+        <label for="calificacion">Ingresa la calificacion:</label>
+
+        <input type="text" id="calificacion" name="calificacion" placeholder="Eje: 85 ">
+
+        <button type="button" onclick="agregarEstudiante()">Agregar</button>
+
+        
+    <button type="button" onclick="calcular()">Calcular</button>
+
+    <!-- readonly: el usuario puede leerlo y se envía en el form, pero NO PUEDE editarlo. -->
+<input type="text" id="masAlta" name="maximo" readonly placeholder="Estudiante con mayor promedio">
+<input type="text" id="masBaja" name="minimo" readonly placeholder="Estudiante con bajo promedio">
+<input type="text" id="promedio" name="promedio" readonly placeholder="Promedio de las calificaciones">
+<input type="reset" id="btnlimpiar" value="Limpiar todo" onclick="limpiarTodo()">
+    </form>
+    </div>
+</body>
+</html>
+ç

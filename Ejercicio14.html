@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/Ejercicio14.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor - Menor -  Promedio</title>
+     <script src="js/Ejercicio14.js"></script>
+</head>
+<body>
+     <div class="contenedor-formulario">
+      <h1>Mayor, Menor, Promedio</h1>
+    <form class="">
+        <label for="numero">Ingresa numeros:</label>
+<!--Esl sigueinte inpput el min=0 es para que no se ecriban valores menos de cero y el step=1 es para que no se escriban negativo -->
+        <input type="text" id="numero" name="numero" placeholder="Eje: 12, 10, 34, 23">
+
+    <button type="button" onclick="convertir()">Calcular</button>
+
+    <!-- readonly: el usuario puede leerlo y se envía en el form, pero NO PUEDE editarlo. -->
+<input type="text" id="max" name="maximo" readonly placeholder="Este es el numero mayor">
+<input type="text" id="min" name="minimo" readonly placeholder="Este es el numero menor">
+<input type="text" id="prom" name="promedio" readonly placeholder="Este es el promedio de los numeros">
+<input type="reset" id="btnlimpiar" value="Limpiar todo">
+    </form>
+    </div>
+</body>
+</html>

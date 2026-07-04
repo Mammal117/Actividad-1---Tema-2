@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/Ejercicio13.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador para votar</title>
+     <script src="js/Ejercicio13.js"></script>
+</head>
+<body>
+     <div class="contenedor-formulario">
+      <h1>¿Puede votar?</h1>
+    <form class="">
+        <label for="numero">Verificador de edad: </label>
+<!--Esl sigueinte inpput el min=0 es para que no se ecriban valores menos de cero y el step=1 es para que no se escriban negativo -->
+        <input type="number" id="numero" name="numero" min="0" step="1" onkeydown="return !['-','+','e','E'].includes(event.key)" placeholder="Ingresa tu edad">
+
+    <button type="button" onclick="convertir()">Verificar</button>
+
+    <!-- readonly: el usuario puede leerlo y se envía en el form, pero NO PUEDE editarlo. -->
+<input type="text" id="resultado" name="resultado" readonly>
+<input type="reset" id="btnlimpiar" value="Limpiar todo">
+    </form>
+    </div>
+</body>
+</html>
