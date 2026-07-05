@@ -237,27 +237,3 @@ CSS requerido para que el modal funcione
 
 El modal necesita estas reglas en styles.css para permanecer oculto hasta que el registro o el login sean exitosos, y aparecer como ventana flotante centrada (no como texto fijo en la pagina):
 
-.modal-fondo{
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.5);
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-}
-
-.modal-fondo.activo{
-    display: flex;
-}
-
-.modal-caja{
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    max-width: 400px;
-    width: 90%;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-}
