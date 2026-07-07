@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/Ejercicio17.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Tareas</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/Ejercicio17.js" defer></script>
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Gestión de Tareas</h1>
+
+        <form class="">
+            <label for="tarea">Ingresa una nueva tarea:</label>
+            <input type="text" id="tarea" placeholder="Eje: Estudiar JavaScript">
+
+            <button type="button" onclick="agregarTarea()">Agregar Tarea</button>
+        </form>
+
+        <!-- Aqui se van a mostrar las tareas guardadas en el Local Storage -->
+        <ul id="listaTareas" class="lista-tareas"></ul>
+    </div>
+</body>
+</html>

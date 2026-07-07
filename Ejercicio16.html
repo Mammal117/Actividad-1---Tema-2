@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/Ejercicio16.css">
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Operaciones </title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script src="js/Ejercicio16.js"></script>
+</head>
+<body>
+     <div class="contenedor-formulario">
+      <h1>Formulario de Operaciones</h1>
+    <form class="">
+    
+        <label for="nombre">Ingresa el primero numero:</label>
+
+        <input type="text" id="numero1" placeholder="Eje: 1 ">
+        
+        <label for="calificacion">Ingresa el segundo numero:</label>
+
+        <input type="text" id="numero2" placeholder="Eje: 2 ">
+
+   <button type="button" onclick="calcularOperacion('suma')">Sumar números</button>
+<button type="button" onclick="calcularOperacion('resta')">Restar números</button>
+<button type="button" onclick="calcularOperacion('division')">Dividir números</button>
+<button type="button" onclick="calcularOperacion('multiplicacion')">Multiplicar números</button>
+
+    <input type="number" id="resultado" name="resultado" readonly placeholder="Resultado de la operacion que se elija">
+
+    
+    </form>
+    </div>
+</body>
+</html>
